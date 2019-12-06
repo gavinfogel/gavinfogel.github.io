@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+  @font-face {
+      font-family: 'nexaw01-heavyregular';
+      src: url('nexa-webfont.woff2') format('woff2'),
+           url('nexa-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+{
+font-family: 'nexaw01-heavyregular';
+font-weight:normal;
+font-style:normal;
+}
