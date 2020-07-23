@@ -1,2 +1,2 @@
 # website
- Inverse Analytics Website
+barebones website
