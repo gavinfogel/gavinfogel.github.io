@@ -1,3 +1,3 @@
 # gavinfogel.github.io
 
-Gavin Fogel personal website.
+Gavin Fogel personal website
