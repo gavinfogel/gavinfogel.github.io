@@ -1,51 +1,16 @@
 <!DOCTYPE html>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<body bgcolor="Black">
-<style>
-  .container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -moz-transform: translateX(-50%) translateY(-50%);
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      font-family: Nexa
-  }
-
-  @font-face { font-family: Nexa; src: url('Nexa.ttf'); }
-  h1 {
-     font-family: Nexa
-  }
-  p {
-    font-family: Nexa
-  }
-</style>
-
-    <div class="container">
-      <h1><font color='white' size="7"><center>Gavin Fogel</center></font></h1>
-      <p><font color='white' size="5"><center>eng @ zage</center></font></p>
-      <p><font color='white' size="4"><center>Dayton, Ohio</center></font></p>
-    </div>
-
-<canvas id="main_js" width="800" height="800">Please update to Chrome 4.0</canvas>
-<script src="main.js"></script>
-
-<style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-family: 'nexaw01-heavyregular';
-}
-</style>
-
-<div class="footer">
-  <p>gavin@fogel.io</p>
-</div>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="theme-color" content="#FF7F7F" />
+		<link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gavin Fogel</title>
+	</head>
+	<body
+		class="bg-white dark:bg-black text-black dark:text-white overflow-x-hidden md:overflow-y-hidden selection:bg-fuchsia-300 selection:text-fuchsia-900 leading-relaxed"
+	>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>
