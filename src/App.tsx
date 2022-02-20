@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { a, config, useSpring } from 'react-spring';
 import { TextSiteLink } from './components/TextSiteLink';
 
@@ -18,13 +18,13 @@ export const App: React.FC = () => {
 				</h2>
 				<p>
 					Currently interested in{' '}
-					<b className='underline decoration-2 decoration-[#FF7F7F]'>
+					<b className='underline decoration-2 decoration-[#ff5148]'>
 						consumer fintech user experience
 					</b>{' '}
 					and all aspects of engeering to enable such.
 				</p>
 				<div className='flex flex-row space-x-12'>
-					<TextSiteLink site='Email' link='mailto:gavin@fogel.io' />
+					<TextSiteLink site='gavin@fogel.io' link='mailto:gavin@fogel.io' />
 					<TextSiteLink site='Twitter' link='https://twitter.com/gavinfogel' />
 				</div>
 			</a.div>
