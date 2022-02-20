@@ -20,10 +20,9 @@ export const App: React.FC = () => {
 					Currently interested in{' '}
 					<b className='underline decoration-2 decoration-[#FF7F7F]'>
 						consumer fintech user experience
-					</b>
-					, and all aspects of engeering to enable such.
+					</b>{' '}
+					and all aspects of engeering to enable such.
 				</p>
-				{/* Quit <b>Cornell</b> to work on the future of finance. */}
 				<div className='flex flex-row space-x-12'>
 					<TextSiteLink site='Blog' link='' />
 					<TextSiteLink site='Twitter' link='https://twitter.com/gavinfogel' />
