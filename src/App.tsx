@@ -24,9 +24,8 @@ export const App: React.FC = () => {
 					and all aspects of engeering to enable such.
 				</p>
 				<div className='flex flex-row space-x-12'>
-					<TextSiteLink site='Blog' link='' />
+					<TextSiteLink site='Email' link='mailto:gavin@fogel.io' />
 					<TextSiteLink site='Twitter' link='https://twitter.com/gavinfogel' />
-					<TextSiteLink site='LinkedIn' link='' />
 				</div>
 			</a.div>
 		</div>
