@@ -17,11 +17,7 @@ export const App: React.FC = () => {
 					Working on building the future of finance. Previously Cornell student.
 				</h2>
 				<p>
-					Currently interested in{' '}
-					<b className='underline decoration-2 decoration-[#ff5148]'>
-						consumer fintech user experience
-					</b>{' '}
-					and all aspects of engeering to enable such.
+					Currently interested in consumer fintech and all aspects of engeering to enable such.
 				</p>
 				<div className='flex flex-row space-x-12'>
 					<TextSiteLink site='gavin@fogel.io' link='mailto:gavin@fogel.io' />
