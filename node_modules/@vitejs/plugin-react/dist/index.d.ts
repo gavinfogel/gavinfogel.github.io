@@ -24,6 +24,12 @@ export declare interface Options {
      */
     jsxImportSource?: string;
     /**
+     * Set this to `true` to annotate the JSX factory with `\/* @__PURE__ *\/`.
+     * This option is ignored when `jsxRuntime` is not `"automatic"`.
+     * @default true
+     */
+    jsxPure?: boolean;
+    /**
      * Babel configuration applied in both dev and prod.
      */
     babel?: BabelOptions;

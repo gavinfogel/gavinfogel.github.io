@@ -1,3 +1,12 @@
-# gavinfogel.github.io
+## Copy template
 
-Gavin Fogel personal website
+```console
+npx tiged mattrossman/r3f-vite
+```
+
+## Setup and run
+
+```console
+yarn
+yarn dev
+```
