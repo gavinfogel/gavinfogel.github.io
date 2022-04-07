@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="relative h-screen w-full text-white overflow-clip">
       <div
-        class="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600
+        className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600
 				group-hover:opacity-100"
       />
       <div
