@@ -24,7 +24,7 @@ export default function App() {
 					md:bg-transparent md:backdrop-blur-none"
         >
           <span className="text-2xl">
-            Currently interested in consumer fintech and all aspects of engeering to enable such, specifically frontend technologies.
+            Currently interested in consumer fintech and all aspects of engineering to enable such, specifically frontend technologies.
           </span>
         </div>
         <div className="flex flex-row space-x-3">
