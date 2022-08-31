@@ -18,15 +18,6 @@ export default function App() {
 				justify-between z-10"
       >
         <h1 className="text-5xl font-bold opacity-80">Gavin Fogel</h1>
-        <span className="text-4xl">Working on building the future of finance. Previously Cornell student.</span>
-        <div
-          className="w-full bg-gray-200 bg-opacity-10 backdrop-blur-md 
-					md:bg-transparent md:backdrop-blur-none"
-        >
-          <span className="text-2xl">
-            Currently interested in consumer fintech and all aspects of engineering to enable such, specifically frontend technologies.
-          </span>
-        </div>
         <div className="flex flex-row space-x-3">
           <Button label="EMAIL" hiddenText="gavin@fogel.io" href="mailto:gavin@fogel.io" />
           <Button label="TWITTER" hiddenText="@gavinfogel" href="https://twitter.com/gavinfogel" />
