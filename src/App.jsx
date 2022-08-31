@@ -22,7 +22,7 @@ export default function App() {
           <Button label="EMAIL" hiddenText="gavin@fogel.io" href="mailto:gavin@fogel.io" />
           <Button label="TWITTER" hiddenText="@gavinfogel" href="https://twitter.com/gavinfogel" />
         </div>
-        <span className="text-xs">Feel free to reach out about anything.</span>
+        <span className="text-xs">Feel free to reach out</span>
       </div>
       <div
         className="absolute w-full translate-x-0  h-screen md:w-2/3 
